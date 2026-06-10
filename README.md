@@ -14,7 +14,7 @@ Focused on backend development, cloud infrastructure, and scalable systems.
 - 🌱 Learning and building with Go
 - ⚙️ Interested in backend architecture, APIs, and distributed systems
 - ☁️ Working with cloud services and automation
-- 📍 Myanmar
+- 📍 London United Kingdom
 
 ---
 
