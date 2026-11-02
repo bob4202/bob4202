@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="130" viewBox="0 0 900 130" role="img" aria-label="Thanks for stopping by.">
+  <defs>
+    <linearGradient id="wa" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#58a6ff"/>
+      <stop offset="1" stop-color="#bc8cff"/>
+    </linearGradient>
+    <linearGradient id="wb" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#bc8cff"/>
+      <stop offset="1" stop-color="#58a6ff"/>
+    </linearGradient>
+    <clipPath id="box"><rect x="0" y="0" width="900" height="130"/></clipPath>
+  </defs>
+
+  <style>
+    text { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
+    .thanks { fill: #8b949e; font-size: 14px; animation: breathe 4s ease-in-out infinite; }
+    .a { animation: drift-a 9s linear infinite; }
+    .b { animation: drift-b 13s linear infinite; }
+    @keyframes drift-a { from { transform: translateX(0); } to { transform: translateX(-300px); } }
+    @keyframes drift-b { from { transform: translateX(-225px); } to { transform: translateX(0); } }
+    @keyframes breathe { 0%, 100% { opacity: .55; } 50% { opacity: 1; } }
+  </style>
+
+  <g clip-path="url(#box)">
+    <text x="450" y="46" text-anchor="middle" class="thanks">thanks for stopping by</text>
+    <path class="b" d="M0 88 C75.0 69.4 150.0 106.6 225 88 C300.0 69.4 375.0 106.6 450 88 C525.0 69.4 600.0 106.6 675 88 C750.0 69.4 825.0 106.6 900 88 C975.0 69.4 1050.0 106.6 1125 88 L1125 130 L0 130 Z" fill="url(#wb)" fill-opacity="0.28"/>
+    <path class="a" d="M0 80 C100.0 53.4 200.0 106.6 300 80 C400.0 53.4 500.0 106.6 600 80 C700.0 53.4 800.0 106.6 900 80 C1000.0 53.4 1100.0 106.6 1200 80 C1300.0 53.4 1400.0 106.6 1500 80 L1500 130 L0 130 Z" fill="url(#wa)" fill-opacity="0.40"/>
+  </g>
+</svg>
