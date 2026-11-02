@@ -1,79 +1,11 @@
-<h1 align="center">Hi 👋, I'm Thet Naung Soe</h1>
+<p align="center"> <img src="assets/banner.svg" alt="Thet Naung Soe, software developer in London. TypeScript, Python, Go, PostgreSQL." width="100%"> </p> <p align="center"> <a href="https://thet-s.dev"><img src="https://img.shields.io/badge/portfolio-thet--s.dev-58a6ff?style=flat-square" alt="Portfolio"></a> <a href="https://www.linkedin.com/in/thet-naung-soe-8a551a231"><img src="https://img.shields.io/badge/LinkedIn-connect-0a66c2?style=flat-square" alt="LinkedIn"></a> <a href="https://github.com/bob4202/codewhy"><img src="https://img.shields.io/badge/open%20source-codewhy-bc8cff?style=flat-square" alt="codewhy on GitHub"></a> <img src="https://img.shields.io/badge/based%20in-London%2C%20UK-3fb950?style=flat-square" alt="Based in London, UK"> </p> <p align="center"> <img src="assets/skills.svg" alt="My skills. Languages: Go, Python, TypeScript, JavaScript, SQL, Lua. Backend and data: Node.js, REST APIs, OAuth 2.0, PostgreSQL, MySQL, testing. Cloud and tools: Google Cloud, Docker, Git, Neovim, React, Next.js." width="100%"> </p> <table align="center"> <tr> <td valign="top" width="50%">
+🔨 Building
 
-<h3 align="center">Software Engineer</h3>
+A multi-tenant ordering and payments platform in Go. Private for now, and I'm writing up how it works.
 
-<p align="center">
-Focused on backend development, cloud infrastructure, and scalable systems.
-</p>
+</td> <td valign="top" width="50%">
+🔍 Open source
 
----
+codewhy, a Neovim plugin that explains code you don't recognise. Feedback welcome.
 
-## 🚀 About Me
-
-- 🔭 Currently working on AI-powered trading analysis tools
-- 🌱 Learning and building with Go
-- ⚙️ Interested in backend architecture, APIs, and distributed systems
-- ☁️ Working with cloud services and automation
-- 📍 London United Kingdom
-
----
-
-## 🛠️ Technologies
-
-### Languages
-
-<p>
-  <img src="https://skillicons.dev/icons?i=go,python,typescript,javascript" />
-</p>
-
-### Backend
-
-<p>
-  <img src="https://skillicons.dev/icons?i=go,nodejs,express" />
-</p>
-
-### Databases
-
-<p>
-  <img src="https://skillicons.dev/icons?i=postgres,mongodb,mysql,redis" />
-</p>
-
-### Cloud & Infrastructure
-
-<p>
-  <img src="https://skillicons.dev/icons?i=gcp,docker" />
-</p>
-
-### Machine Learning
-
-<p>
-  <img src="https://skillicons.dev/icons?i=tensorflow,pytorch" />
-</p>
-
----
-
-## 📌 Interests
-
-- Backend Development
-- REST APIs
-- Microservices
-- Distributed Systems
-- Cloud Infrastructure
-- Trading Systems
-- Machine Learning
-
----
-
-## 📊 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=bob4202&show_icons=true&theme=tokyonight" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=bob4202&theme=tokyonight" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=bob4202&layout=compact&theme=tokyonight" />
-</p>
+</td> </tr> </table> <p align="center"> <img src="assets/footer.svg" alt="Thanks for stopping by." width="100%"> </p>
