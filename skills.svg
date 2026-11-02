@@ -1,0 +1,157 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="270" viewBox="0 0 900 270" role="img" aria-label="My skills: Go, Python, TypeScript, JavaScript, SQL, Lua, Node.js, REST APIs, OAuth 2.0, PostgreSQL, MySQL, Testing, Google Cloud, Docker, Git, Neovim, React, Next.js.">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset="1" stop-color="#161b22"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    text { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
+    .label { fill: #8b949e; font-size: 12px; }
+    .cat   { font-size: 13px; font-weight: 700; }
+    .skill { fill: #e6edf3; font-size: 12px; }
+    .tile  { animation: lift 18s ease-in-out infinite; }
+    .glow  { fill: var(--c); stroke: var(--c); stroke-width: 1.5; fill-opacity: 0; stroke-opacity: 0; animation: glow 18s ease-in-out infinite; }
+
+    @keyframes lift {
+      0%      { transform: translateY(0); }
+      1.5%    { transform: translateY(-4px); }
+      5.5%    { transform: translateY(-4px); }
+      7.5%, 100% { transform: translateY(0); }
+    }
+    @keyframes glow {
+      0%      { fill-opacity: 0;    stroke-opacity: 0; }
+      1.5%    { fill-opacity: .20;  stroke-opacity: 1; }
+      5.5%    { fill-opacity: .20;  stroke-opacity: 1; }
+      7.5%, 100% { fill-opacity: 0; stroke-opacity: 0; }
+    }
+  </style>
+
+  <rect x="1" y="1" width="898" height="268" rx="14" fill="url(#bg)" stroke="#30363d" stroke-width="2"/>
+  <text x="30" y="32" class="label">~/skills</text>
+
+  <g style="--c:#58a6ff">
+    <rect x="24" y="46" width="276" height="200" rx="12" fill="#0d1117" stroke="#58a6ff" stroke-opacity="0.45" stroke-width="1.5"/>
+    <circle cx="46" cy="72" r="4" fill="#58a6ff"><animate attributeName="opacity" values="1;0.3;1" dur="2.4s" repeatCount="indefinite"/></circle>
+    <text x="58" y="77" class="cat" fill="#58a6ff">languages</text>
+    <g class="tile" style="animation-delay:0s">
+      <rect x="42" y="90" width="116" height="40" rx="9" fill="#161b22" stroke="#30363d"/>
+      <rect class="glow" x="42" y="90" width="116" height="40" rx="9" style="animation-delay:0s"/>
+      <circle cx="57" cy="110.0" r="3.5" fill="#58a6ff"/>
+      <text x="68" y="114.5" class="skill">Go</text>
+    </g>
+    <g class="tile" style="animation-delay:1s">
+      <rect x="166" y="90" width="116" height="40" rx="9" fill="#161b22" stroke="#30363d"/>
+      <rect class="glow" x="166" y="90" width="116" height="40" rx="9" style="animation-delay:1s"/>
+      <circle cx="181" cy="110.0" r="3.5" fill="#58a6ff"/>
+      <text x="192" y="114.5" class="skill">Python</text>
+    </g>
+    <g class="tile" style="animation-delay:2s">
+      <rect x="42" y="140" width="116" height="40" rx="9" fill="#161b22" stroke="#30363d"/>
+      <rect class="glow" x="42" y="140" width="116" height="40" rx="9" style="animation-delay:2s"/>
+      <circle cx="57" cy="160.0" r="3.5" fill="#58a6ff"/>
+      <text x="68" y="164.5" class="skill">TypeScript</text>
+    </g>
+    <g class="tile" style="animation-delay:3s">
+      <rect x="166" y="140" width="116" height="40" rx="9" fill="#161b22" stroke="#30363d"/>
+      <rect class="glow" x="166" y="140" width="116" height="40" rx="9" style="animation-delay:3s"/>
+      <circle cx="181" cy="160.0" r="3.5" fill="#58a6ff"/>
+      <text x="192" y="164.5" class="skill">JavaScript</text>
+    </g>
+    <g class="tile" style="animation-delay:4s">
+      <rect x="42" y="190" width="116" height="40" rx="9" fill="#161b22" stroke="#30363d"/>
+      <rect class="glow" x="42" y="190" width="116" height="40" rx="9" style="animation-delay:4s"/>
+      <circle cx="57" cy="210.0" r="3.5" fill="#58a6ff"/>
+      <text x="68" y="214.5" class="skill">SQL</text>
+    </g>
+    <g class="tile" style="animation-delay:5s">
+      <rect x="166" y="190" width="116" height="40" rx="9" fill="#161b22" stroke="#30363d"/>
+      <rect class="glow" x="166" y="190" width="116" height="40" rx="9" style="animation-delay:5s"/>
+      <circle cx="181" cy="210.0" r="3.5" fill="#58a6ff"/>
+      <text x="192" y="214.5" class="skill">Lua</text>
+    </g>
+  </g>
+  <g style="--c:#bc8cff">
+    <rect x="312" y="46" width="276" height="200" rx="12" fill="#0d1117" stroke="#bc8cff" stroke-opacity="0.45" stroke-width="1.5"/>
+    <circle cx="334" cy="72" r="4" fill="#bc8cff"><animate attributeName="opacity" values="1;0.3;1" dur="2.4s" repeatCount="indefinite"/></circle>
+    <text x="346" y="77" class="cat" fill="#bc8cff">backend &amp; data</text>
+    <g class="tile" style="animation-delay:6s">
+      <rect x="330" y="90" width="116" height="40" rx="9" fill="#161b22" stroke="#30363d"/>
+      <rect class="glow" x="330" y="90" width="116" height="40" rx="9" style="animation-delay:6s"/>
+      <circle cx="345" cy="110.0" r="3.5" fill="#bc8cff"/>
+      <text x="356" y="114.5" class="skill">Node.js</text>
+    </g>
+    <g class="tile" style="animation-delay:7s">
+      <rect x="454" y="90" width="116" height="40" rx="9" fill="#161b22" stroke="#30363d"/>
+      <rect class="glow" x="454" y="90" width="116" height="40" rx="9" style="animation-delay:7s"/>
+      <circle cx="469" cy="110.0" r="3.5" fill="#bc8cff"/>
+      <text x="480" y="114.5" class="skill">REST APIs</text>
+    </g>
+    <g class="tile" style="animation-delay:8s">
+      <rect x="330" y="140" width="116" height="40" rx="9" fill="#161b22" stroke="#30363d"/>
+      <rect class="glow" x="330" y="140" width="116" height="40" rx="9" style="animation-delay:8s"/>
+      <circle cx="345" cy="160.0" r="3.5" fill="#bc8cff"/>
+      <text x="356" y="164.5" class="skill">OAuth 2.0</text>
+    </g>
+    <g class="tile" style="animation-delay:9s">
+      <rect x="454" y="140" width="116" height="40" rx="9" fill="#161b22" stroke="#30363d"/>
+      <rect class="glow" x="454" y="140" width="116" height="40" rx="9" style="animation-delay:9s"/>
+      <circle cx="469" cy="160.0" r="3.5" fill="#bc8cff"/>
+      <text x="480" y="164.5" class="skill">PostgreSQL</text>
+    </g>
+    <g class="tile" style="animation-delay:10s">
+      <rect x="330" y="190" width="116" height="40" rx="9" fill="#161b22" stroke="#30363d"/>
+      <rect class="glow" x="330" y="190" width="116" height="40" rx="9" style="animation-delay:10s"/>
+      <circle cx="345" cy="210.0" r="3.5" fill="#bc8cff"/>
+      <text x="356" y="214.5" class="skill">MySQL</text>
+    </g>
+    <g class="tile" style="animation-delay:11s">
+      <rect x="454" y="190" width="116" height="40" rx="9" fill="#161b22" stroke="#30363d"/>
+      <rect class="glow" x="454" y="190" width="116" height="40" rx="9" style="animation-delay:11s"/>
+      <circle cx="469" cy="210.0" r="3.5" fill="#bc8cff"/>
+      <text x="480" y="214.5" class="skill">Testing</text>
+    </g>
+  </g>
+  <g style="--c:#3fb950">
+    <rect x="600" y="46" width="276" height="200" rx="12" fill="#0d1117" stroke="#3fb950" stroke-opacity="0.45" stroke-width="1.5"/>
+    <circle cx="622" cy="72" r="4" fill="#3fb950"><animate attributeName="opacity" values="1;0.3;1" dur="2.4s" repeatCount="indefinite"/></circle>
+    <text x="634" y="77" class="cat" fill="#3fb950">cloud &amp; tools</text>
+    <g class="tile" style="animation-delay:12s">
+      <rect x="618" y="90" width="116" height="40" rx="9" fill="#161b22" stroke="#30363d"/>
+      <rect class="glow" x="618" y="90" width="116" height="40" rx="9" style="animation-delay:12s"/>
+      <circle cx="633" cy="110.0" r="3.5" fill="#3fb950"/>
+      <text x="644" y="114.5" class="skill">Google Cloud</text>
+    </g>
+    <g class="tile" style="animation-delay:13s">
+      <rect x="742" y="90" width="116" height="40" rx="9" fill="#161b22" stroke="#30363d"/>
+      <rect class="glow" x="742" y="90" width="116" height="40" rx="9" style="animation-delay:13s"/>
+      <circle cx="757" cy="110.0" r="3.5" fill="#3fb950"/>
+      <text x="768" y="114.5" class="skill">Docker</text>
+    </g>
+    <g class="tile" style="animation-delay:14s">
+      <rect x="618" y="140" width="116" height="40" rx="9" fill="#161b22" stroke="#30363d"/>
+      <rect class="glow" x="618" y="140" width="116" height="40" rx="9" style="animation-delay:14s"/>
+      <circle cx="633" cy="160.0" r="3.5" fill="#3fb950"/>
+      <text x="644" y="164.5" class="skill">Git</text>
+    </g>
+    <g class="tile" style="animation-delay:15s">
+      <rect x="742" y="140" width="116" height="40" rx="9" fill="#161b22" stroke="#30363d"/>
+      <rect class="glow" x="742" y="140" width="116" height="40" rx="9" style="animation-delay:15s"/>
+      <circle cx="757" cy="160.0" r="3.5" fill="#3fb950"/>
+      <text x="768" y="164.5" class="skill">Neovim</text>
+    </g>
+    <g class="tile" style="animation-delay:16s">
+      <rect x="618" y="190" width="116" height="40" rx="9" fill="#161b22" stroke="#30363d"/>
+      <rect class="glow" x="618" y="190" width="116" height="40" rx="9" style="animation-delay:16s"/>
+      <circle cx="633" cy="210.0" r="3.5" fill="#3fb950"/>
+      <text x="644" y="214.5" class="skill">React</text>
+    </g>
+    <g class="tile" style="animation-delay:17s">
+      <rect x="742" y="190" width="116" height="40" rx="9" fill="#161b22" stroke="#30363d"/>
+      <rect class="glow" x="742" y="190" width="116" height="40" rx="9" style="animation-delay:17s"/>
+      <circle cx="757" cy="210.0" r="3.5" fill="#3fb950"/>
+      <text x="768" y="214.5" class="skill">Next.js</text>
+    </g>
+  </g>
+</svg>
